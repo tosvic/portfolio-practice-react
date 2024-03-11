@@ -1,0 +1,149 @@
+#container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 90vh;
+}
+
+.wrapper {
+  /* width: 100%; */
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 40rem;
+  padding: 0 10rem;
+}
+
+.left{
+  /* margin-right: 100px; */
+  /* flex: 1; */
+  /* background-color: antiquewhite; */
+  height: 100%;
+}
+
+.left-wrap{
+  margin-left: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+}
+
+.left-wrap span{
+  font-size: 32px;
+}
+.left-wrap div{
+  font-size: 38px;
+  font-weight: 600;
+}
+.left-wrap p{
+  width: 380px;
+  font-size: 12px;
+  font-weight: 300;
+  color: rgb(87, 87, 87);
+}
+
+.left-wrap button{
+  width: 120px;
+  padding: 8px 14px;
+  border: none;
+  background-color: crimson;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  margin-top: 20px;
+}
+
+.right-wrap img{
+  margin-top: -5rem;
+}
+
+
+.skills {
+  text-align: center;
+  height: 60vh;
+}
+
+.skills h3 {
+  color: #dc143cab;
+}
+
+.skills-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+
+.tools h5 {
+  font-size: .8rem;
+  color: rgb(87, 87, 87);
+  padding: 2rem;
+}
+
+.tools img {
+  margin-left: 3rem;
+}
+
+.project {
+  text-align: center;
+  height: 40vh;
+  background: #343D68;
+  padding: 2rem;
+  color: #e6e3e3fd;
+
+}
+
+.project-select {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.contact {
+  height: 40vh;
+  margin-top: 10rem;
+}
+
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding-top: 5rem;
+}
+
+.contact h3 {
+  color: #dc143cab;
+  text-align: center;
+}
+
+input {
+  padding: .5rem 8rem;
+  outline: none;
+  border: 1px solid lightgrey;
+}
+
+textarea {
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+
+/* media query */
+
+@media (max-width: 600px) {
+  #container{
+    height: 190vh;
+  }
+
+  .wrapper {
+   flex-direction: column;
+   padding: 0 1rem;
+  }
+
+  .right-wrap img{
+    margin-top: 0;
+  }
+}
