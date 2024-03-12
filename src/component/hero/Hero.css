@@ -89,11 +89,10 @@
 
 .project {
   text-align: center;
-  height: 40vh;
+  height: 55vh;
   background: #343D68;
   padding: 2rem;
   color: #e6e3e3fd;
-
 }
 
 .project-select {
@@ -102,8 +101,23 @@
   justify-content: space-evenly;
 }
 
+.project-select p {
+  width: 400px;
+  padding: 1rem;
+}
+
+.probtn {
+  padding: .8rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+  background: #343D68;
+  border: 3px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
 .contact {
-  height: 40vh;
+  height: 60vh;
   margin-top: 10rem;
 }
 

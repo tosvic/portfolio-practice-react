@@ -25,7 +25,7 @@ export default function Hero() {
          <div className='left-wrap'>
          <span>Hi, I'm a </span>
           <div>Software Developer</div>
-          <p>I’m John Doe, a developer dedicated to making the world a better place one line of code at a time.</p>
+          <p>I’m VICTOR UHUO, a developer dedicated to making the world a better place one line of code at a time.</p>
           <button>Hire me</button>
          </div>
         </div>
@@ -66,11 +66,26 @@ export default function Hero() {
         <h5>A selected number of projects</h5>
 
         <div className="project-select">
-            <img src= {project1} alt="" />
-            <img src= {project2} alt="" />
-            <img src= {project3} alt="" />
+          <div>
+          <img src= {project1} alt="" />
+          <p>Made a social media manager template using HTML 5, CSS and JS</p>
+          <button className='probtn'>Learn More</button>
+          </div>
+
+          <div>
+          <img src= {project2} alt="" />
+          <p>Made a social media manager template using HTML 5, CSS and JS</p>
+          <button className='probtn'>Learn More</button>
+          </div>
+            
+          <div>
+          <img src= {project3} alt="" />
+          <p>Made a social media manager template using HTML 5, CSS and JS</p>
+          <button className='probtn'>Learn More</button>
+          </div>   
           </div>
       </div>
+
 
 {/* contact */}
 <div className="contact">
