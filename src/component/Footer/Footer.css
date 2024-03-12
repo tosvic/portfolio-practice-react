@@ -1,0 +1,36 @@
+.foot {
+    width: 100%;
+    height: 40vh;
+    background-image: url(/src/assets/bgwave.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.foot-left {
+    color: #fff;
+}
+
+.foot-left img {
+    color: #fff;
+    padding-top: 1rem;
+    margin-right: 2rem;
+}
+
+.foot-right {
+    color: #fff;
+}
+
+.foot-right img {
+    color: #fff;
+    padding-top: 1rem;
+}
+  .foot-icons {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 12rem;
+  }
+
+  .foot-icons img {
+    width: 30px;
+  }
